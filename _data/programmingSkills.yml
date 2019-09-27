@@ -1,8 +1,11 @@
 - name: PHP
   percent: 65%
-  
+
 - name: Java
   percent: 60%
+
+- name: Javascript / Node.js
+  percent: 70%
 
 - name: Ruby on Rails
   percent: 50%
