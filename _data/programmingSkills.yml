@@ -7,8 +7,5 @@
 - name: Javascript / Node.js
   percent: 70%
 
-- name: Ruby on Rails
-  percent: 50%
-
 - name: GIT
   percent: 65%
