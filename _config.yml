@@ -16,7 +16,8 @@
 title: Your awesome title
 email: your-email@example.com
 description: > # this means to ignore newlines until "baseurl:"
-  <strong>Experienced Digital Marketer & Web Developer</strong> with a demonstrated history of working in the information technology and services industry. Skilled in <strong>Digital Marketing, E-Commerce, and Web Developer Skill</strong>, etc. Strong engineering professional with a Bachelor of Technology - <strong>BIT focused in Computer Science from STIKOM Bali Jimbaran and HELP University</strong>. 
+  I am a <strong>Full-Stack Web</strong> developer with industry experience building websites and web applications. 
+  I specialize in PHP and JavaScript and have professional experience working with Front <strong>Vue</strong> and Back <strong>PHP</strong>. I also have experience working with Javascript & PHP Framwork such as Vue, Angular, and Laravel. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://andikajayaw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
