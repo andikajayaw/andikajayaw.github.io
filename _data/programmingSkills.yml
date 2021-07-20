@@ -1,11 +1,14 @@
 - name: PHP
-  percent: 65%
+  percent: 80%
 
-- name: Java
-  percent: 60%
+- name: Javascript
+  percent: 80%
 
-- name: Javascript / Node.js
+  - name: Laravel
+  percent: 70%
+
+  - name: Vue JS
   percent: 70%
 
 - name: GIT
-  percent: 65%
+  percent: 70%

@@ -1,14 +1,56 @@
-- job: Front Liner Sales & Team Leader
-  duration: January 2015 - December 2017
+- job: Front Liner Sales & Marketing
+  duration: January 2015 - September 2017
   company: Ratna Bali Handphone Shop
-  desc: This is my first job. So, I'm doing this job while I'm taking my college. In this company, I learn about sales and management.
+  desc: 1. Serve customers well.
+        2. Manage the performance of the store team.
+        3. Arrange the management of stock of goods.
+        4. Make a report on the stock of goods and stock sales every month.
+        5. Help increase mobile phone sales and service services
 
 - job: Website Developer (Internship)
-  duration: 3 Months January 2017 - March 2017
+  duration: 3 Months April 2017 - July 2017
   company: Technologia Creativa
-  desc: On this company, I learn about a lot of things about Web Development.
+  desc: I was an intern at Technologia Creativa for 3 months as a Junior Web Developer. 
+        1. Learn how to create a CMS system. 
+        2. Learn about native PHP. 
+        3. Learn about website development
 
-- job: Digital Marketer, Software Quality Assurance(SQA) & Junior Web Developer
+- job: Digital Marketer, Software Quality Assurance(SQA)
   duration: November 2018 - August 2019
   company: MindiMedia
-  desc: I learn a lot of things when I working in this company. First, I learn about Digital Marketing(E-Commerce), then learn how to maintain and testing a software to make sure the software in good quality. Last, I learn about developing website, but I only learn the front-end knowledge, and a little back-end knowledge.
+  desc: 1. Manage content for client's property website
+        2. Testing/Quality assurance the booking engine (Guirez.com)
+        3. Planning and Contorlling client's social media
+
+- job: Junior Project Manager (Internship)
+  duration: October 2019 - January 2020
+  company: OYO Rooms Indonesia
+  desc: I was an intern at OYO Rooms Indonesia for 3 months as a Talent Pool & Junior Project Manager.
+        1. Planning and scheduling each project, ex doing monthly meetings. 
+        2. Evaluating and evaluating the results of the performance of the BDE / Sales every month. 
+        3. Monitor and report on the progress / performance of the Sales team to the Head of OYO Bali. 
+        4. Make a report containing the progress of the BDE team, problems and solutions
+
+- job: Ecommerce & Junior Web Developer
+  duration: January 2020 - July 2020
+  company: Villa Kayu Raja
+  desc: 1. Provide support for strategy development and sales performance. 
+        2. Plan and manage strategies for Social Media Marketing 
+        3. Update the price of the BAR in OTA & Update the Allotment 
+        4. Create a monthly earnings report of Villa Kayu Raja from OTA and Webiste 
+        5. Update Content website Villa Kayu Raja on CPanel
+        6. Backup Email of Villa Kayu Raja
+        7. Updating SSL on the website of Villa Kayu Raja
+
+- job: Full Stack Developer
+  duration: July 2020 - Present
+  company: PT. Saka Agung Abadi
+  desc: 1. Participating in the design and creation of scalable software
+        2. Writing clean, functional code on the front (Vue.JS) and back-end (PHP)
+        3. Testing and fixing bugs or other coding issues
+        4. Test software to ensure responsiveness and efficiency
+        5. Build features and applications with a mobile responsive design
+        6. Work with development teams and product managers to ideate software solutions
+        7. Troubleshoot, debug and upgrade software
+
+
