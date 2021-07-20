@@ -4,10 +4,10 @@
 - name: Javascript
   percent: 80%
 
-  - name: Laravel
+- name: Laravel
   percent: 70%
 
-  - name: Vue JS
+- name: Vue JS
   percent: 70%
 
 - name: GIT
