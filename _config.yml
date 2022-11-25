@@ -16,8 +16,9 @@
 title: Your awesome title
 email: your-email@example.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am a <strong>Web Application Developer</strong> developer with industry experience building websites and web applications. 
-  I specialize in PHP and JavaScript and have professional experience working with Front <strong>Vue</strong> and Back <strong>PHP</strong>. I also have experience working with Javascript & PHP Framwork such as Vue, Angular, and Laravel. 
+  I am a <strong>Web Developer</strong> with industry experience building websites and web applications. 
+  I specialize and have professional experience working with <strong>Javascript, Vue, React, PHP, and Laravel</strong>.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://andikajayaw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -25,7 +26,7 @@ github_username:  jekyll
 
 #Identity
 name: Andika Jaya
-title: Web Application Developer 
+title: Web Developer 
 
 #Profile
 full_name: I Putu Andika Jaya Wiguna, S.Kom., BIT
@@ -39,7 +40,7 @@ github: https://github.com/andikajayaw
 
 
 #CV
-cv: file-cv-2022.pdf
+cv: Resume-Andika-Jaya.pdf
 
 # Build settings
 markdown: kramdown

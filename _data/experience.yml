@@ -1,38 +1,27 @@
-- job: Website Developer (Internship)
-  duration: 3 Months April 2017 - July 2017
-  company: Technologia Creativa
-  desc: I was an intern at Technologia Creativa for 3 months as a Junior Web Developer. 
-        1. Learn how to create a CMS system. 
-        2. Learn about native PHP. 
-        3. Learn about website development
-
-- job: Digital Marketer, Software Quality Assurance(SQA)
-  duration: November 2018 - August 2019
-  company: MindiMedia
-  desc: 1. Manage content for client's property website
-        2. Testing/Quality assurance the booking engine (Guirez.com)
-        3. Planning and Contorlling client's social media
-
-- job: Ecommerce & Junior Web Developer
+- job: Junior Web Developer & Ecommerce  
   duration: January 2020 - July 2020
   company: Villa Kayu Raja
-  desc: 1. Provide support for strategy development and sales performance. 
-        2. Plan and manage strategies for Social Media Marketing 
-        3. Update the price of the BAR in OTA & Update the Allotment 
-        4. Create a monthly earnings report of Villa Kayu Raja from OTA and Webiste 
-        5. Update Content website Villa Kayu Raja on CPanel
-        6. Backup Email of Villa Kayu Raja
-        7. Updating SSL on the website of Villa Kayu Raja
+  desc: 1. Provide support for strategy development, sales performance & plan and manage strategies for Social Media Marketing.
+  2. Update the price of the BAR and allotment in OTA & create a monthly earnings report of Villa Kayu Raja from OTA and Website
+  3. Update, maintain, and manage Villa Kayu Raja website using Wordpress
 
 - job: Full Stack Developer
-  duration: July 2020 - Present
+  duration: July 2020 - Jun 2022
   company: PT. Saka Agung Abadi
-  desc: 1. Participating in the design and creation of scalable software
-        2. Writing clean, functional code on the front (Vue.JS) and back-end (PHP)
-        3. Testing and fixing bugs or other coding issues
-        4. Test software to ensure responsiveness and efficiency
-        5. Build features and applications with a mobile responsive design
-        6. Work with development teams and product managers to ideate software solutions
-        7. Troubleshoot, debug and upgrade software
+  desc: Creating and maintenance feature to web app according the stakeholder requirement. 
+  The web app build on top of php and javascript (Vue)
+  1. Participating in the design and creation of scalable web application
+  2. Writing clean, functional code on the front-end(Vue, Javascript) and back-end(PHP, Laravel), design
+  system, design pattern and design database (MySQL and PostgreSQL)
+  3. Work with development teams and product managers to ideate software solutions
+
+- job: Full Stack Developer
+  duration: July 2020 - Jun 2022
+  company: PT. Saka Agung Abadi
+  desc: Creating and maintenance feature to web app according the stakeholder requirement. 
+  The web app build on top of php and javascript (Vue)
+  1. Participating in the design and creation of scalable web application
+  2. Writing clean, functional code on the front-end(Vue, Javascript) and back-end(PHP, Laravel), design system, design pattern and design database (MySQL and PostgreSQL)
+  3. Work with development teams and product managers to ideate software solutions
 
 
