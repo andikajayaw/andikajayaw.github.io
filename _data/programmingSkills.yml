@@ -1,11 +1,5 @@
-- name: PHP
-  percent: 80%
-
 - name: Javascript
   percent: 80%
-
-- name: Laravel
-  percent: 70%
 
 - name: Vue JS
   percent: 80%
@@ -16,6 +10,12 @@
 - name: Node JS
   percent: 70%
 
+- name: PHP
+  percent: 80%
+
+- name: Laravel
+  percent: 70%
+
 - name: PostgreSQL
   percent: 80%
 
@@ -23,4 +23,4 @@
   percent: 80%
 
 - name: GIT
-  percent: 70%
+  percent: 80%
