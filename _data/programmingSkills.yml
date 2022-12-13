@@ -4,9 +4,6 @@
 - name: Vue JS
   percent: 80%
 
-- name: React
-  percent: 70%
-
 - name: Node JS
   percent: 70%
 
