@@ -16,8 +16,8 @@
 title: Your awesome title
 email: your-email@example.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am a <strong>Web Developer</strong> with industry experience building websites and web applications. 
-  I specialize and have professional experience working with <strong>Javascript, Vue, React, PHP, and Laravel</strong>.
+  I am a <strong>Web Developer</strong> with industry experience building web applications. 
+I specialize and have professional experience working with <strong>Javascript, Vue and PHP</strong>.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://andikajayaw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
