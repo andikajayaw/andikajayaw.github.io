@@ -7,8 +7,8 @@ import Links from "../components/Links.astro"
 const headTitle = "Andika Jaya"
 ---
 <BaseLayout pageTitle={headTitle}>
-	<Header title={headTitle} client:load />
-	<Project client:idle />
+	<Header title={headTitle} />
+	<Project />
 	<Tools client:visible />
 	<Links client:visible />
 </BaseLayout>
