@@ -3,7 +3,22 @@ import ProjectSectionLayout from "../layouts/ProjectSectionLayout.astro";
 import SectionLayout from "../layouts/SectionLayout.astro";
 // const allProjects = await Astro.glob('../pages/projects/*.md');
 interface Props {
-  projects: string[];
+  projects: Array<{
+    href: string;
+    name: string;
+    desc: string;
+    dateInfo: string;
+    preview: {
+      src: string;
+      width: number;
+      height: number;
+    };
+    previewPlaceholder?: {
+      src: string;
+      width: number;
+      height: number;
+    };
+  }>;
 }
 const { projects } = Astro.props;
 ---
