@@ -6,6 +6,8 @@ interface Props {
 }
 const {project, indexKey, url} = Astro.props;
 
+const projects: any = project;
+
 const assetsUrl = 'img';
 ---
 <div>
@@ -16,7 +18,7 @@ const assetsUrl = 'img';
         target="_blank"
         class="[&:hover_h3]:underline [&:hover_h3]:decoration-dashed [&:hover_h3]:decoration-blue-400 inline-block -my-1 py-1 mr-1"
       >
-        <h3 class="inline font-semibold text-lg">{project.name}</h3>{' '}
+        <h3 class="inline font-semibold text-lg">{projects.name}</h3>{' '}
         <svg
           class="inline w-4 h-4 relative -top-0.5 text-blue-400"
           viewBox="0 0 24 24"
@@ -32,20 +34,20 @@ const assetsUrl = 'img';
         </svg>
       </a>
       <div class="text-sm bg-neutral-800 text-white inline-block rounded-md px-2 py-0.5">
-        {project.dateInfo}
+        {projects.dateInfo}
       </div>
     </div>
-    <p class="text-sm pt-1.5 pb-4 text-neutral-400 font-light">{project.desc}</p>
+    <p class="text-sm pt-1.5 pb-4 text-neutral-400 font-light">{projects.desc}</p>
     <div class="rounded-lg overflow-hidden relative border border-neutral-700">
-      {project.previewPlaceholder ? (
+      {projects.previewPlaceholder ? (
         <>
           <img
             id={`img-${indexKey}`}
-            src={`${assetsUrl}/${project.previewPlaceholder.src}`}
-            width={project.previewPlaceholder.width}
-            height={project.previewPlaceholder.height}
+            src={`${assetsUrl}/${projects.previewPlaceholder.src}`}
+            width={projects.previewPlaceholder.width}
+            height={projects.previewPlaceholder.height}
             class="w-full"
-            alt={`${project.name} preview`}
+            alt={`${projects.name} preview`}
           />
           <div class="absolute bottom-4 right-4 bg-white/90 rounded-md px-3 py-1.5 text-sm appear text-neutral-800 shadow-md">
             ⏳ &nbsp;Loading animated preview...
@@ -54,14 +56,14 @@ const assetsUrl = 'img';
       ) : (
         <img
           src={
-            project.preview.src.startsWith('http')
-              ? project.preview.src
-              : `${assetsUrl}/${project.preview.src}`
+            projects.preview.src.startsWith('http')
+              ? projects.preview.src
+              : `${assetsUrl}/${projects.preview.src}`
           }
-          width={project.preview.width}
-          height={project.preview.height}
+          width={projects.preview.width}
+          height={projects.preview.height}
           class="w-full"
-          alt={`${project.name} preview`}
+          alt={`${projects.name} preview`}
           loading="lazy"
         />
       )}
