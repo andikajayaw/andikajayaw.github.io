@@ -5,10 +5,20 @@ import Project from "../components/Project.astro"
 import Tools from "../components/Tools.astro"
 import Links from "../components/Links.astro"
 const headTitle = "Andika Jaya"
+
+const projects = [
+  {
+    href: 'akaru-rebuild',
+    name: 'AkaruRebuild',
+    desc: 'Rebuild AWWWARDS Winning using GSAP - Inspired: akaru.fr',
+    dateInfo: 'Oct 2024',
+    preview: { src: 'AkaruRebuild.gif', width: 600, height: 379 },
+  },
+];
 ---
 <BaseLayout pageTitle={headTitle}>
 	<Header title={headTitle} />
-	<Project />
+	<Project projects={projects} />
 	<Tools />
 	<Links />
 </BaseLayout>

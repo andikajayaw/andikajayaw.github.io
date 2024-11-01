@@ -1,19 +1,29 @@
 ---
-// import ProjectSectionLayout from "../layouts/ProjectSectionLayout.astro";
+import ProjectSectionLayout from "../layouts/ProjectSectionLayout.astro";
 import SectionLayout from "../layouts/SectionLayout.astro";
-const allProjects = await Astro.glob('../pages/projects/*.md');
-
+// const allProjects = await Astro.glob('../pages/projects/*.md');
+const { projects } = Astro.props;
 ---
 <div>
   <div class="mt-20 text-2xl font-extralight flex gap-3.5 items-center text-neutral-400 tracking-wide"> 
     <h2 class="uppercase">Projects</h2> <div class="h-px bg-neutral-500 flex-1"></div> 
   </div>
   <SectionLayout>
-    <!-- {allProjects.map((post) => <ProjectSectionLayout frontmatter={post.frontmatter} />)} -->
-    <div class="grid justify-center">
+    { projects.map((project, i) => {
+        const url =
+      !project.href.startsWith('http') && process.env.NODE_ENV === 'development'
+        ? `https://andikajayaw.github.io/${project.href}`
+        : project.href;
+        return (
+          <ProjectSectionLayout project={project} indexKey={i} url={url} />
+        )
+      })
+    }
+    
+    <!-- <div class="grid justify-center">
       <h3 class="inline font-semibold text-lg">🚧 Work in progress 🚧</h3>
       <h3 class="inline font-semibold text-lg">🚧 Work in progress 🚧</h3>
       <h3 class="inline font-semibold text-lg">🚧 Work in progress 🚧</h3>
-    </div>
+    </div> -->
   </SectionLayout>
 </div>
