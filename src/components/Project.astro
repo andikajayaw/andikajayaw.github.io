@@ -2,6 +2,9 @@
 import ProjectSectionLayout from "../layouts/ProjectSectionLayout.astro";
 import SectionLayout from "../layouts/SectionLayout.astro";
 // const allProjects = await Astro.glob('../pages/projects/*.md');
+interface Props {
+  projects: string[];
+}
 const { projects } = Astro.props;
 ---
 <div>
@@ -9,7 +12,7 @@ const { projects } = Astro.props;
     <h2 class="uppercase">Projects</h2> <div class="h-px bg-neutral-500 flex-1"></div> 
   </div>
   <SectionLayout>
-    { projects.map((project, i) => {
+    { projects.map((project: any, i: any) => {
         const url =
       !project.href.startsWith('http') && process.env.NODE_ENV === 'development'
         ? `https://andikajayaw.github.io/${project.href}`
