@@ -28,10 +28,7 @@ const { projects } = Astro.props;
   </div>
   <SectionLayout>
     { projects.map((project: any, i: any) => {
-        const url =
-      !project.href.startsWith('http') && process.env.NODE_ENV === 'development'
-        ? `https://andikajayaw.github.io/${project.href}`
-        : project.href;
+        const url = project.href;
         return (
           <ProjectSectionLayout project={project} indexKey={i} url={url} />
         )
